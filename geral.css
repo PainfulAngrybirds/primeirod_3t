@@ -27,3 +27,18 @@
     color: #4ddbdb;
     background: #081424;
 }
+h3 {
+    color: #61ffea;
+}
+
+.calcF {
+    display: none;
+}
+
+#input-calcF {
+    display: none;
+}
+
+#input-calcF:checked + #calculadora .calcF {
+    display:block
+}
